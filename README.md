@@ -1,5 +1,13 @@
 # Vue 3 Circle Progress
 
+Fork of vue3-circle-progress - https://github.com/delowardev/vue3-circle-progress
+
+I've made this fork for personal use but will leave it here in case it's helpful to anyone else. Firstly, thanks to the original author for their work on this project. I have a specific use case that is using a PDF renderer. The project needs absolutely NO animation or delays so that the PDF can be server side rendered with the correct values. 
+
+With the main project I'm running into issues where, even setting animation/transition times to 0, the bars and percentages are not filled up in time. 
+
+Purpose of this fork is to remove any step/tick/animations to ensure instant rendering of the final percentages and radial values
+
 ![Vue 3 Circle Progress](https://i.imgur.com/AAWDdsQl.jpg)
 
 Highly customizable & lightweight circular progressbar component for Vue 3, built with SVG and extensively customizable.
